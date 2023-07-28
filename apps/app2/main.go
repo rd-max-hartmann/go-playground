@@ -6,7 +6,7 @@ import (
 )
 
 func Hello(name string) string {
-	result := "Hello " + mylib.Mylib("Max")
+	result := "Hello " + mylib.Mylib(name)
 	return result
 }
 
