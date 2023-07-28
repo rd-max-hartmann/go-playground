@@ -2,6 +2,9 @@
   "implicitDependencies": {
     "go.mod": "*"
   },
+  "plugins": [
+    "@nx-go/nx-go"
+  ],
   "namedInputs": {
     "default": [
       "{projectRoot}/**/*",
