@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-	"playground/apps/api/model"
 	"playground/libs/mylib"
+	"playground/libs/mylib/model"
 )
 
 func getHello(response http.ResponseWriter, request *http.Request) {
