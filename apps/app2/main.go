@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"undefined/libs/mylib"
+	"playground/libs/mylib"
 )
 
 func Hello(name string) string {
