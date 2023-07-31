@@ -2,7 +2,9 @@
   "name": "@go-playground/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "nx run api:build:production"
+  },
   "private": true,
   "devDependencies": {
     "@nx-go/nx-go": "^2.7.0",
